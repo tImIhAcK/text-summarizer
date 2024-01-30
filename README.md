@@ -10,14 +10,6 @@ The Text Summarizer is an AI-powered tool designed to summarize text and documen
 
 - File Upload: Upload PDF or DOC files to have their content summarized automatically.
 
-### Dependencies
-
-Make sure to install the necessary dependencies before running the application:
-
-```
-pip install -r requirements.txt
-```
-
 ### How to Run
 
 1. Clone this repository:
@@ -58,12 +50,18 @@ Replace `<venv_name>` with your environment name
 OPENAI_API_KEY='your_api_key'
 ```
 
+5. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
 Replace `your_api_key` with your api from openai
 
-5. Run the application:
+6. Run the application:
 
 ```
 streamlit run app.py
 ```
 
-6. Access the application in your browser at http://localhost:8501.
+7. Access the application in your browser at http://localhost:8501.
